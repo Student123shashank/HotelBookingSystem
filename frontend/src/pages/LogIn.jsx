@@ -1,0 +1,117 @@
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
+import { authActions } from "../store/auth";
+import { useDispatch } from "react-redux";
+import Swal from "sweetalert2";
+
+const Login = () => {
+  const [credentials, setCredentials] = useState({
+    username: "",
+    password: "",
+  });
+
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const handleChange = (e) => {
+    setCredentials({ ...credentials, [e.target.name]: e.target.value });
+  };
+
+  const showSuccessMessage = () => {
+    Swal.fire({
+      title: "Login Successful!",
+      text: "Welcome back!",
+      icon: "success",
+      confirmButtonText: "OK",
+    });
+  };
+
+  const showErrorMessage = (message) => {
+    Swal.fire({
+      title: "Login Failed!",
+      text: message,
+      icon: "error",
+      confirmButtonText: "OK",
+    });
+  };
+
+  const handleSubmit = async () => {
+    try {
+      if (!credentials.username || !credentials.password) {
+        showErrorMessage("All fields are required");
+        return;
+      }
+
+      const response = await axios.post(
+        "http://localhost:1000/api/v1/sign-in",
+        credentials
+      );
+
+      dispatch(authActions.login());
+      dispatch(authActions.changeRole(response.data.role));
+      localStorage.setItem("id", response.data.id);
+      localStorage.setItem("token", response.data.token);
+      localStorage.setItem("role", response.data.role);
+      localStorage.setItem("username", response.data.username);
+
+      showSuccessMessage();
+      navigate("/profile");
+    } catch (error) {
+      showErrorMessage(error.response?.data?.message || "Something went wrong!");
+    }
+  };
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
+      <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-md">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+          Hotel Booking Login
+        </h2>
+
+        <div>
+          <label className="text-gray-700 dark:text-gray-300">Username</label>
+          <input
+            type="text"
+            name="username"
+            value={credentials.username}
+            onChange={handleChange}
+            className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+
+        <div className="mt-4">
+          <label className="text-gray-700 dark:text-gray-300">Password</label>
+          <input
+            type="password"
+            name="password"
+            value={credentials.password}
+            onChange={handleChange}
+            className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+
+        <button
+          onClick={handleSubmit}
+          className="w-full mt-6 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition"
+        >
+          Log In
+        </button>
+
+        <p className="text-center text-gray-600 dark:text-gray-400 mt-4">
+          Don't have an account?{" "}
+          <Link to="/signup" className="text-blue-500 hover:underline">
+            Sign Up
+          </Link>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Login;
+
