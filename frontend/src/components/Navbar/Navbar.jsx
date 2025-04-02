@@ -57,7 +57,7 @@ const Navbar = () => {
             src="https://cdn-icons-png.flaticon.com/128/2948/2948035.png"
             alt="logo"
           />
-          <h1 className="text-lg md:text-2xl font-semibold">HotelBooking</h1>
+          <h1 className="text-lg md:text-2xl font-semibold">StayEase</h1>
         </Link>
 
 
