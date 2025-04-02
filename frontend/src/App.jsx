@@ -24,7 +24,6 @@ const App = () => {
     document.documentElement.classList.toggle("dark", isDarkMode);
   }, [isDarkMode]);
 
-
   useEffect(() => {
     const userId = localStorage.getItem("id");
     const token = localStorage.getItem("token");
@@ -39,6 +38,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      // just a comment added
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/all-hotel" element={<AllHotels />} />
@@ -50,7 +50,10 @@ const App = () => {
 
         <Route path="/profile" element={<Profile />}>
           <Route index element={<Favourites />} />
-          <Route path="/profile/bookingHistory" element={<UserBookingHistory />} />
+          <Route
+            path="/profile/bookingHistory"
+            element={<UserBookingHistory />}
+          />
           <Route path="/profile/settings" element={<Settings />} />
           <Route path="add-review/:hotelId" element={<AddReview />} />
         </Route>
