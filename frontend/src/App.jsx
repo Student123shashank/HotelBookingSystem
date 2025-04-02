@@ -38,7 +38,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      // just a comment
+      // just a comment added
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/all-hotel" element={<AllHotels />} />
