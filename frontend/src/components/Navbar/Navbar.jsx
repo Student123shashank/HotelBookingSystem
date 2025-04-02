@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { FaBars, FaTimes, FaMoon, FaSun, FaUser } from "react-icons/fa";
 import { useSelector } from "react-redux";
 
-
 const Navbar = () => {
   const navigate = useNavigate();
   const [mobileNav, setMobileNav] = useState(false);
@@ -33,7 +32,6 @@ const Navbar = () => {
       document.documentElement.classList.remove("dark");
     }
 
-
     window.dispatchEvent(new Event("dark-mode-change"));
   };
 
@@ -57,9 +55,13 @@ const Navbar = () => {
             src="https://cdn-icons-png.flaticon.com/128/2948/2948035.png"
             alt="logo"
           />
-          <h1 className="text-lg md:text-2xl font-semibold">StayEase</h1>
+          <h1
+            className="text-lg md:text-2xl font-semibold bg-gradient-to-r from-[#FFD700] via-[#DAA520] to-[#0F172A] bg-clip-text text-transparent"
+            style={{ fontFamily: "'Cinzel', serif" }}
+          >
+            StayEase
+          </h1>
         </Link>
-
 
         <div className="hidden md:flex items-center">
           <input
@@ -78,7 +80,6 @@ const Navbar = () => {
           </button>
         </div>
 
-
         <div className="hidden md:flex items-center gap-6">
           {navLinks.map((item, index) =>
             !item.auth || isLoggedIn ? (
@@ -92,11 +93,9 @@ const Navbar = () => {
             ) : null
           )}
 
-
           <button className="text-white text-xl" onClick={toggleDarkMode}>
             {darkMode ? <FaSun /> : <FaMoon />}
           </button>
-
 
           {!isLoggedIn ? (
             <div className="flex gap-4">
@@ -114,14 +113,19 @@ const Navbar = () => {
               </Link>
             </div>
           ) : (
-            <Link to="/profile" className="text-white text-xl hover:text-yellow-400 transition">
+            <Link
+              to="/profile"
+              className="text-white text-xl hover:text-yellow-400 transition"
+            >
               <FaUser />
             </Link>
           )}
         </div>
 
-
-        <button className="block md:hidden text-white text-2xl" onClick={() => setMobileNav(!mobileNav)}>
+        <button
+          className="block md:hidden text-white text-2xl"
+          onClick={() => setMobileNav(!mobileNav)}
+        >
           {mobileNav ? <FaTimes /> : <FaBars />}
         </button>
       </nav>
