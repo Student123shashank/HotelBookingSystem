@@ -26,10 +26,10 @@ function Geolocation() {
     });
   }, []);
   return (
-    <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 py-12 px-8 text-center rounded-xl shadow-2xl border border-gray-700 max-w-5xl mx-auto">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-gray-100 tracking-wide leading-snug">
-        Find the best hotels & stays in{" "}
-        <span className="text-yellow-400 italic">
+    <div className="py-12 px-8 text-center max-w-5xl mx-auto">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-black tracking-wide leading-snug">
+        Discover the <span className="italic">best hotels & stays</span> in{" "}
+        <span className="text-blue-600 italic font-extrabold">
           {city || "your location"}
         </span>
       </h2>

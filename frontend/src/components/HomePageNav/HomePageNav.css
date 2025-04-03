@@ -1,9 +1,22 @@
 .homepage-container {
+  position: relative;
+  height: 50vh; 
+  display: flex;
+  flex-direction: column;
+  filter: brightness(80%) contrast(90%);
+  overflow: hidden;
+}
+
+.homepage-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url("https://images.pexels.com/photos/732629/pexels-photo-732629.jpeg?cs=srgb&dl=pexels-sassu-anas-216345-732629.jpg&fm=jpg");
   background-size: cover;
   background-position: center;
-  height: 50vh; /* Half height */
-  display: flex;
-  flex-direction: column;
-  filter: brightness(80%) contrast(90%); /* Make image less pop */
+  filter: blur(2px);
+  z-index: -1;
 }

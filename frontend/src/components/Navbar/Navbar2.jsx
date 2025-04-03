@@ -22,9 +22,9 @@ const Navbar2 = () => {
   ];
 
   return (
-    <nav className="sticky top-0 left-0 w-full bg-transparent backdrop-blur-none shadow-lg py-4 px-6 md:px-14 flex items-center justify-between z-50 text-white">
+    <nav className="sticky top-0 left-0 w-full bg-transparent backdrop-blur-none border-none shadow-none py-4 px-6 md:px-14 flex items-center justify-between z-50 text-white">
 
- <Link to="/" className="flex items-center gap-3">
+      <Link to="/" className="flex items-center gap-3">
         <img
           className="h-12 md:h-14 drop-shadow-lg"
           src="https://cdn-icons-png.flaticon.com/128/2948/2948035.png"
@@ -33,7 +33,6 @@ const Navbar2 = () => {
         <h1 className="text-3xl font-extrabold">StayEase</h1>
       </Link>
 
-      {/* Search Bar */}
       <div className="hidden md:flex items-center border border-white rounded-full px-4 py-2 shadow-xl w-96 bg-white text-gray-800">
         <input
           type="text"
@@ -51,7 +50,6 @@ const Navbar2 = () => {
         </button>
       </div>
 
-      {/* Desktop Navigation */}
       <div className="hidden md:flex items-center gap-6">
         {navLinks.map((item, index) => (
           <Link
@@ -88,7 +86,6 @@ const Navbar2 = () => {
         )}
       </div>
 
-      {/* Mobile Menu Button */}
       <button
         className="block md:hidden text-white text-3xl"
         onClick={() => setMobileNav(!mobileNav)}
@@ -96,9 +93,10 @@ const Navbar2 = () => {
         {mobileNav ? <FaTimes /> : <FaBars />}
       </button>
 
-      {/* Mobile Navigation */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 shadow-xl transform transition-transform duration-300 ease-in-out ${mobileNav ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed top-0 right-0 h-full w-64 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 shadow-xl transform transition-transform duration-300 ease-in-out ${
+          mobileNav ? "translate-x-0" : "translate-x-full"
+        }`}
       >
         <button
           className="absolute top-4 right-4 text-2xl text-white"
