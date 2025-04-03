@@ -3,6 +3,7 @@ import Sidebar from "../components/Profile/Sidebar";
 import { Outlet } from "react-router-dom";
 import Loader from "../components/Loader/Loader";
 import axios from "axios";
+import Navbar from "../components/Navbar/Navbar";
 
 const Profile = () => {
   const [profile, setProfile] = useState(null);
@@ -35,6 +36,8 @@ const Profile = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="bg-white dark:bg-zinc-900 min-h-screen flex flex-col">
       {!profile ? (
         <div className="w-full h-full flex items-center justify-center flex-grow">
@@ -54,6 +57,7 @@ const Profile = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 

@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Routes, Route } from "react-router-dom";
 import { authActions } from "./store/auth";
 import Home from "./pages/Home";
-import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import AllHotels from "./pages/AllHotels";
 import LogIn from "./pages/LogIn";
@@ -37,7 +36,6 @@ const App = () => {
 
   return (
     <div>
-      <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/all-hotel" element={<AllHotels />} />
