@@ -4,6 +4,7 @@ import axios from "axios";
 import { authActions } from "../store/auth";
 import { useDispatch } from "react-redux";
 import Swal from "sweetalert2";
+import Navbar from "../components/Navbar/Navbar";
 
 const Login = () => {
   const [credentials, setCredentials] = useState({
@@ -63,53 +64,55 @@ const Login = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
-      <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-md">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-          Hotel Booking Login
-        </h2>
+    <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-md">
+      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+        Hotel Booking Login
+      </h2>
 
-        <div>
-          <label className="text-gray-700 dark:text-gray-300">Username</label>
-          <input
-            type="text"
-            name="username"
-            value={credentials.username}
-            onChange={handleChange}
-            className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white"
-            placeholder="Enter your username"
-            required
-          />
-        </div>
-
-        <div className="mt-4">
-          <label className="text-gray-700 dark:text-gray-300">Password</label>
-          <input
-            type="password"
-            name="password"
-            value={credentials.password}
-            onChange={handleChange}
-            className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white"
-            placeholder="Enter your password"
-            required
-          />
-        </div>
-
-        <button
-          onClick={handleSubmit}
-          className="w-full mt-6 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition"
-        >
-          Log In
-        </button>
-
-        <p className="text-center text-gray-600 dark:text-gray-400 mt-4">
-          Don't have an account?{" "}
-          <Link to="/signup" className="text-blue-500 hover:underline">
-            Sign Up
-          </Link>
-        </p>
+      <div>
+        <label className="text-gray-700 dark:text-gray-300">Username</label>
+        <input
+          type="text"
+          name="username"
+          value={credentials.username}
+          onChange={handleChange}
+          className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white"
+          placeholder="Enter your username"
+          required
+        />
       </div>
+
+      <div className="mt-4">
+        <label className="text-gray-700 dark:text-gray-300">Password</label>
+        <input
+          type="password"
+          name="password"
+          value={credentials.password}
+          onChange={handleChange}
+          className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <button
+        onClick={handleSubmit}
+        className="w-full mt-6 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition"
+      >
+        Log In
+      </button>
+
+      <p className="text-center text-gray-600 dark:text-gray-400 mt-4">
+        Don't have an account?{" "}
+        <Link to="/signup" className="text-blue-500 hover:underline">
+          Sign Up
+        </Link>
+      </p>
     </div>
+  </div></>
   );
 };
 

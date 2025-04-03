@@ -1,0 +1,9 @@
+.homepage-container {
+  background-image: url("https://images.pexels.com/photos/732629/pexels-photo-732629.jpeg?cs=srgb&dl=pexels-sassu-anas-216345-732629.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh; /* Half height */
+  display: flex;
+  flex-direction: column;
+  filter: brightness(80%) contrast(90%); /* Make image less pop */
+}

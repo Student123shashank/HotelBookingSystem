@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Swal from 'sweetalert2';
+import Navbar from "../components/Navbar/Navbar";
 
 const SignUp = () => {
   const [Values, setValues] = useState({
@@ -57,6 +58,8 @@ const SignUp = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="min-h-screen bg-white-900 flex flex-col">
       <div className="flex-grow flex items-center justify-center px-12 py-8">
         <div className="bg-zinc-800 rounded-lg px-8 py-5 w-full sm:w-3/6 lg:w-2/6">
@@ -137,7 +140,7 @@ const SignUp = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></>
   );
 };
 
