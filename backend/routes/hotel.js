@@ -4,14 +4,17 @@ const jwt = require("jsonwebtoken");
 const Hotel = require("../models/hotel");
 const { authenticateToken } = require("./userAuth");
 
-// Add Hotel (Admin Only)
 router.post("/add-hotel", authenticateToken, async (req, res) => {
     try {
         const { id } = req.headers;
         const user = await User.findById(id);
 
+        if (!user) {
+            return res.status(404).json({ message: "User not found" });
+        }
+
         if (user.role !== "admin") {
-            return res.status(400).json({ message: "You do not have admin access" });
+            return res.status(403).json({ message: "You do not have admin access" });
         }
 
         const hotels = req.body;
@@ -21,8 +24,9 @@ router.post("/add-hotel", authenticateToken, async (req, res) => {
         }
 
         // Save Hotels
-        const savedHotels = await Promise.all(
-            hotels.map(async (hotel) => {
+        const savedHotels = [];
+        for (let hotel of hotels) {
+            try {
                 const newHotel = new Hotel({
                     name: hotel.name,
                     location: hotel.location,
@@ -33,15 +37,24 @@ router.post("/add-hotel", authenticateToken, async (req, res) => {
                     roomsAvailable: hotel.roomsAvailable,
                     category: hotel.category,
                     owner: hotel.owner,
+                    rating: hotel.rating
                 });
-                return await newHotel.save();
-            })
-        );
+                const savedHotel = await newHotel.save();
+                savedHotels.push(savedHotel);
+            } catch (err) {
+                console.error("Error saving hotel:", err.message); 
+            }
+        }
+
+        if (savedHotels.length === 0) {
+            return res.status(400).json({ message: "No hotels were added due to errors" });
+        }
 
         res.status(200).json({ message: "Hotels added successfully", hotels: savedHotels });
+
     } catch (error) {
-        console.error("Error adding hotels:", error);
-        res.status(500).json({ message: "Internal server error" });
+        console.error("Error adding hotels:", error.message);
+        res.status(500).json({ message: "Internal server error", error: error.message });
     }
 });
 
@@ -150,3 +163,4 @@ router.get("/search", async (req, res) => {
 });
 
 module.exports = router;
+
