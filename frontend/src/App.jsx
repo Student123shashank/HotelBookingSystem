@@ -111,7 +111,6 @@ const App = () => {
           }
         />
 
-        {/* User Routes */}
         <Route path="/" element={<Home />} />
         <Route path="/all-hotel" element={<AllHotels />} />
         <Route path="/signup" element={<SignUp />} />
