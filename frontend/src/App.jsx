@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Routes, Route } from "react-router-dom";
 import { authActions } from "./store/auth";
 
-
 import Home from "./pages/Home";
 import Footer from "./components/Footer/Footer";
 import AllHotels from "./pages/AllHotels";
@@ -18,16 +17,14 @@ import SearchResults from "./pages/SearchResults";
 import BuyHotel from "./components/BuyHotel/BuyHotel";
 import AddReview from "./pages/AddReview";
 
-
 import AdminRoute from "./routes/AdminRoutes";
 import AdminLayout from "./components/admin/AdminLayout";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AddHotel from "./pages/admin/AddHotel";
-import ManageHotel from "./pages/admin/ManageHotels"; 
+import ManageHotel from "./pages/admin/ManageHotels";
 import ManageUsers from "./pages/admin/ManageUsers";
-import ViewBookings from "./pages/admin/ViewBookings"; 
-import ViewReviews from "./pages/admin/ViewReviews"; 
-
+import ViewBookings from "./pages/admin/ViewBookings";
+import ViewReviews from "./pages/admin/ViewReviews";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -51,7 +48,6 @@ const App = () => {
   return (
     <>
       <Routes>
-        
         <Route
           path="/admin/dashboard"
           element={
@@ -73,7 +69,7 @@ const App = () => {
           }
         />
         <Route
-          path="/admin/manage-hotels" 
+          path="/admin/manage-hotels"
           element={
             <AdminRoute>
               <AdminLayout>
@@ -83,39 +79,37 @@ const App = () => {
           }
         />
         <Route
-  path="/admin/manage-users"
-  element={
-    <AdminRoute>
-      <AdminLayout>
-        <ManageUsers />
-      </AdminLayout>
-    </AdminRoute>
-  }
-/>
+          path="/admin/manage-users"
+          element={
+            <AdminRoute>
+              <AdminLayout>
+                <ManageUsers />
+              </AdminLayout>
+            </AdminRoute>
+          }
+        />
 
+        <Route
+          path="/admin/view-bookings"
+          element={
+            <AdminRoute>
+              <AdminLayout>
+                <ViewBookings />
+              </AdminLayout>
+            </AdminRoute>
+          }
+        />
 
-<Route
-  path="/admin/view-bookings"
-  element={
-    <AdminRoute>
-      <AdminLayout>
-        <ViewBookings />
-      </AdminLayout>
-    </AdminRoute>
-  }
-/>
-
-<Route
-  path="/admin/view-reviews"
-  element={
-    <AdminRoute>
-      <AdminLayout>
-        <ViewReviews />
-      </AdminLayout>
-    </AdminRoute>
-  }
-/>
-
+        <Route
+          path="/admin/view-reviews"
+          element={
+            <AdminRoute>
+              <AdminLayout>
+                <ViewReviews />
+              </AdminLayout>
+            </AdminRoute>
+          }
+        />
 
         {/* User Routes */}
         <Route path="/" element={<Home />} />
