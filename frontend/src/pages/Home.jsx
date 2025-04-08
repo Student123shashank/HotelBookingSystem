@@ -3,6 +3,7 @@ import Hero from "../components/Home/Hero";
 import RecentlyAdded from "../components/Home/RecentlyAdded";
 import Chatbot from "../components/Chatbot/Chatbot";
 import HomePageNav from "../components/HomePageNav/HomePageNav";
+import Hotel from "../components/hotels/hotel";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HomePageNav/>
       <div className="text-white px-10 py-8">
         <Hero />
+        <Hotel/>
         <RecentlyAdded />
         <Chatbot />
       </div>
