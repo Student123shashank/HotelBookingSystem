@@ -47,6 +47,10 @@ const App = () => {
 
   return (
     <>
+    <div
+      className="min-h-screen bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/background.png')" }}
+    >
       <Routes>
         <Route
           path="/admin/dashboard"
@@ -130,6 +134,7 @@ const App = () => {
       </Routes>
 
       <Footer />
+      </div>
     </>
   );
 };

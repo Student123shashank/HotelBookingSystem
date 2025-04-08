@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <HomePageNav/>
-      <div className="bg-white-900 text-white px-10 py-8">
+      <div className="text-white px-10 py-8">
         <Hero />
         <RecentlyAdded />
         <Chatbot />
