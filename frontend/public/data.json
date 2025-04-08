@@ -194,11 +194,11 @@
   {
     "S.No.": 17,
     "State": "Andaman And Nicobar",
-    "City": "Port Blair*",
+    "City": "Port Blair",
     "Category": "2 Star",
     "Alcohol": "",
     "Hotel Name": "HOTEL SHREESH",
-    "Address": "LINK ROAD, GOAL GHAR, PORT BLAIR, ANDAMAN & NICOBAR ISLAND Port Blair*",
+    "Address": "LINK ROAD, GOAL GHAR, PORT BLAIR, ANDAMAN & NICOBAR ISLAND Port Blair",
     "Start Date": "09/05/2019",
     "Expiry Date": "08/05/2024",
     "Total Rooms": 38
@@ -938,7 +938,7 @@
   {
     "S.No.": 79,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "GREENWOOD FOURSEASONS",
@@ -950,7 +950,7 @@
   {
     "S.No.": 80,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "HOTEL GAGAN REGENCY",
@@ -962,7 +962,7 @@
   {
     "S.No.": 81,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "HOTEL IVY",
@@ -974,7 +974,7 @@
   {
     "S.No.": 82,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "HOTEL KINGSWAY",
@@ -986,7 +986,7 @@
   {
     "S.No.": 83,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "HOTEL SOLITAIRE ( A UNIT OF R.R.S.K.ENTERPRISES)",
@@ -998,7 +998,7 @@
   {
     "S.No.": 84,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "HOTEL THE GOLDEN OAK",
@@ -1010,7 +1010,7 @@
   {
     "S.No.": 85,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "RMV RESORT AND HOTELS PVT LTD",
@@ -5978,7 +5978,7 @@
   {
     "S.No.": 499,
     "State": "Manipur",
-    "City": "Imphal*",
+    "City": "Imphal",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "Elora Hotel, a unit of Chingao Hotel and Resorts Pvt. Ltd.",
@@ -5990,7 +5990,7 @@
   {
     "S.No.": 500,
     "State": "Meghalaya",
-    "City": "Shillong*",
+    "City": "Shillong",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "HOTEL POINISUK",
@@ -6122,7 +6122,7 @@
   {
     "S.No.": 511,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "3 Star",
     "Alcohol": "",
     "Hotel Name": "BEVERLY",
@@ -6518,7 +6518,7 @@
   {
     "S.No.": 544,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "HOTEL GRAND IMPERIA (UNIT OF GRAND ARSH",
@@ -6530,7 +6530,7 @@
   {
     "S.No.": 545,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Clarks Inn Suites",
@@ -6542,7 +6542,7 @@
   {
     "S.No.": 546,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "HOTEL BABYLON INN PVT LTD",
@@ -6554,7 +6554,7 @@
   {
     "S.No.": 547,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "HOTEL CELEBRATION",
@@ -6566,7 +6566,7 @@
   {
     "S.No.": 548,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Hyatt Raipur (A Unit of Chartered Hotels Private Limited)",
@@ -6578,7 +6578,7 @@
   {
     "S.No.": 549,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Sayaji Hotel Raipur",
@@ -6710,7 +6710,7 @@
   {
     "S.No.": 560,
     "State": "DNH & DD",
-    "City": "Silvassa*",
+    "City": "Silvassa",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "RAS RESORTS",
@@ -8462,7 +8462,7 @@
   {
     "S.No.": 706,
     "State": "Odisha",
-    "City": "Bhubaneswar*",
+    "City": "Bhubaneswar",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Empires",
@@ -8474,7 +8474,7 @@
   {
     "S.No.": 707,
     "State": "Odisha",
-    "City": "Bhubaneswar*",
+    "City": "Bhubaneswar",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Pal Heights",
@@ -8486,7 +8486,7 @@
   {
     "S.No.": 708,
     "State": "Odisha",
-    "City": "Bhubaneswar*",
+    "City": "Bhubaneswar",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "The New Marrion",
@@ -8534,7 +8534,7 @@
   {
     "S.No.": 712,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "EHOTEl",
@@ -8546,7 +8546,7 @@
   {
     "S.No.": 713,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Gokulam Park Sabari",
@@ -8558,7 +8558,7 @@
   {
     "S.No.": 714,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "MERCURE CHENNAI SRIPERUMBUDUR",
@@ -8570,7 +8570,7 @@
   {
     "S.No.": 715,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Novotel Chennai Chamiers Road",
@@ -8582,7 +8582,7 @@
   {
     "S.No.": 716,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "The Raintree, Anna Salai (A Unit of Ceebros Hotels Pvt. Ltd.)",
@@ -8690,7 +8690,7 @@
   {
     "S.No.": 725,
     "State": "Uttar Pradesh",
-    "City": "Lucknow*",
+    "City": "Lucknow",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Fairfield By Marriott Hotel",
@@ -8702,7 +8702,7 @@
   {
     "S.No.": 726,
     "State": "Uttar Pradesh",
-    "City": "Lucknow*",
+    "City": "Lucknow",
     "Category": "4 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "FAIRFIELD BY MARRIOTT LUCKNOW",
@@ -8870,11 +8870,11 @@
   {
     "S.No.": 740,
     "State": "Andaman And Nicobar",
-    "City": "Port Blair*",
+    "City": "Port Blair",
     "Category": "4 Star",
     "Alcohol": "Without Alcohol",
     "Hotel Name": "HOTEL AQUAGREEN A UNIT OF SOUTHERNS HOLDINGS AND INVESTMENTS CHENNAI PRIVATE LIMITED",
-    "Address": "KEYS SELECT HOTEL AQUAGREEN,OPPOSITE TO AIRPORT EXIT GATE, LAMBA LINE,JUNGLI GHAT. Port Blair*",
+    "Address": "KEYS SELECT HOTEL AQUAGREEN,OPPOSITE TO AIRPORT EXIT GATE, LAMBA LINE,JUNGLI GHAT. Port Blair",
     "Start Date": "18/09/2018",
     "Expiry Date": "17/09/2023",
     "Total Rooms": 48
@@ -8894,7 +8894,7 @@
   {
     "S.No.": 742,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "4 Star",
     "Alcohol": "Without Alcohol",
     "Hotel Name": "Ariena - The Boutique Hotel",
@@ -8906,7 +8906,7 @@
   {
     "S.No.": 743,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "4 Star",
     "Alcohol": "Without Alcohol",
     "Hotel Name": "HOtel Vennington Court",
@@ -10406,7 +10406,7 @@
   {
     "S.No.": 868,
     "State": "Odisha",
-    "City": "Bhubaneswar*",
+    "City": "Bhubaneswar",
     "Category": "4 Star",
     "Alcohol": "Without Alcohol",
     "Hotel Name": "PAL HEIGHTS",
@@ -10778,7 +10778,7 @@
   {
     "S.No.": 899,
     "State": "Goa",
-    "City": "Panaji*",
+    "City": "Panaji",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Double Tree by Hilton by Goldfinch Resorts Pvt Ltd",
@@ -10790,7 +10790,7 @@
   {
     "S.No.": 900,
     "State": "Goa",
-    "City": "Panaji*",
+    "City": "Panaji",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "FORTUNE MIRAMAR",
@@ -10802,7 +10802,7 @@
   {
     "S.No.": 901,
     "State": "Goa",
-    "City": "Panaji*",
+    "City": "Panaji",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "THE CROWN GOA",
@@ -10934,7 +10934,7 @@
   {
     "S.No.": 912,
     "State": "Himachal Pradesh",
-    "City": "Shimla*",
+    "City": "Shimla",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Radisson Jass Hotel",
@@ -11570,11 +11570,11 @@
   {
     "S.No.": 965,
     "State": "Odisha",
-    "City": "Bhubaneswar*",
+    "City": "Bhubaneswar",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Swosti Premium Ltd.",
-    "Address": "P1,jaydv Vihar Bhubaneswar*",
+    "Address": "P1,jaydv Vihar Bhubaneswar",
     "Start Date": "05/03/2019",
     "Expiry Date": "04/03/2024",
     "Total Rooms": 147
@@ -11582,11 +11582,11 @@
   {
     "S.No.": 966,
     "State": "Odisha",
-    "City": "Bhubaneswar*",
+    "City": "Bhubaneswar",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Vivanta Bhubneshwar DN Square, Unit of: Lifeline Multi-Ventures Private Limited",
-    "Address": "IDCO Plot No. 1A, Bhagabanpur Industrial Estate, Patrapara Bhubaneswar*",
+    "Address": "IDCO Plot No. 1A, Bhagabanpur Industrial Estate, Patrapara Bhubaneswar",
     "Start Date": "25/03/2022",
     "Expiry Date": "24/03/2027",
     "Total Rooms": 136
@@ -11594,7 +11594,7 @@
   {
     "S.No.": 967,
     "State": "Odisha",
-    "City": "Bhubaneswar*",
+    "City": "Bhubaneswar",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "WELCOMHOTEL BHUBANESWAR",
@@ -11738,7 +11738,7 @@
   {
     "S.No.": 979,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Grand Chennai by GRT Hotels",
@@ -11750,7 +11750,7 @@
   {
     "S.No.": 980,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Radisson Blu Hotel Chennai City Centre (a Unit of VVA Hotel P Ltd)",
@@ -11762,7 +11762,7 @@
   {
     "S.No.": 981,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "RAMADA PLAZA CHENNAI",
@@ -11774,11 +11774,11 @@
   {
     "S.No.": 982,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Trident, Chennai",
-    "Address": "124, GST Road Meenambakkam Chennai* Chennai*",
+    "Address": "124, GST Road Meenambakkam Chennai Chennai",
     "Start Date": "01/04/2022",
     "Expiry Date": "31/03/2027",
     "Total Rooms": 167
@@ -11930,7 +11930,7 @@
   {
     "S.No.": 995,
     "State": "Uttar Pradesh",
-    "City": "Lucknow*",
+    "City": "Lucknow",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Renaissance Lucknow Hotel",
@@ -11942,7 +11942,7 @@
   {
     "S.No.": 996,
     "State": "Uttar Pradesh",
-    "City": "Lucknow*",
+    "City": "Lucknow",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "The Centrum unit of Anahita Hospitality LLP",
@@ -12170,11 +12170,11 @@
   {
     "S.No.": 1015,
     "State": "Bihar",
-    "City": "Patna*",
+    "City": "Patna",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Hotel Lemon Tree Premier (Owned and Developed by KUMAR INFRATRADE ENTERPRISES PVT LTD)",
-    "Address": "PLOT NO.876, EXHIBITION ROAD, NEAR RAM GULAM CHOWK, PATNA Patna*",
+    "Address": "PLOT NO.876, EXHIBITION ROAD, NEAR RAM GULAM CHOWK, PATNA Patna",
     "Start Date": "06/08/2018",
     "Expiry Date": "05/08/2023",
     "Total Rooms": 106
@@ -12182,7 +12182,7 @@
   {
     "S.No.": 1016,
     "State": "Bihar",
-    "City": "Patna*",
+    "City": "Patna",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "HOTEL PATLIPUTRA CONTINENTAL LLP",
@@ -12194,7 +12194,7 @@
   {
     "S.No.": 1017,
     "State": "Chandigarh",
-    "City": "Chandigarh*",
+    "City": "Chandigarh",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "JW MARRIOTT CHANDIGARH",
@@ -12206,7 +12206,7 @@
   {
     "S.No.": 1018,
     "State": "Chandigarh",
-    "City": "Chandigarh*",
+    "City": "Chandigarh",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "The LaLiT, Chandigarh",
@@ -12218,7 +12218,7 @@
   {
     "S.No.": 1019,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "COURTYARD MARRIOTT RAIPUR (A Unit of R.K.Hoteliers and Developers Pvt. Ltd.)",
@@ -12230,7 +12230,7 @@
   {
     "S.No.": 1020,
     "State": "Chhattisgarh",
-    "City": "Raipur*",
+    "City": "Raipur",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "MAYFAIR LAKE RESORT, A UNIT OF MAYFAIR HOTELS AND RESORTS LIMITED",
@@ -12614,11 +12614,11 @@
   {
     "S.No.": 1052,
     "State": "Goa",
-    "City": "Panaji*",
+    "City": "Panaji",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "GOA MARRIOTT RESORT",
-    "Address": "POST BOX. NO. 64, MIRAMAR, PANAJI, 403001. Panaji*",
+    "Address": "POST BOX. NO. 64, MIRAMAR, PANAJI, 403001. Panaji",
     "Start Date": "02/01/2023",
     "Expiry Date": "01/01/2028",
     "Total Rooms": 190
@@ -12626,7 +12626,7 @@
   {
     "S.No.": 1053,
     "State": "Goa",
-    "City": "Panaji*",
+    "City": "Panaji",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Hotel Cidade de Goa (Unit of Fomento Resorts and Hotels Ltd)",
@@ -12638,7 +12638,7 @@
   {
     "S.No.": 1054,
     "State": "Goa",
-    "City": "Panaji*",
+    "City": "Panaji",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Taj Hotel and Convention centre Goa (Unit of Fomento Resorts and Hotels Limited)",
@@ -12650,7 +12650,7 @@
   {
     "S.No.": 1055,
     "State": "Goa",
-    "City": "Panaji*",
+    "City": "Panaji",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Vivanta by Taj, Panaji, goa",
@@ -12830,11 +12830,11 @@
   {
     "S.No.": 1070,
     "State": "Himachal Pradesh",
-    "City": "Shimla*",
+    "City": "Shimla",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Wildflower Hall",
-    "Address": "Chharabra, Shimla-171012 Shimla*",
+    "Address": "Chharabra, Shimla-171012 Shimla",
     "Start Date": "07/10/2020",
     "Expiry Date": "06/10/2025",
     "Total Rooms": 85
@@ -12842,7 +12842,7 @@
   {
     "S.No.": 1071,
     "State": "Jharkhand",
-    "City": "Ranchi*",
+    "City": "Ranchi",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Radisson Blu Hotel Ranchi",
@@ -13490,11 +13490,11 @@
   {
     "S.No.": 1125,
     "State": "Odisha",
-    "City": "Bhubaneswar*",
+    "City": "Bhubaneswar",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Trident",
-    "Address": "CB - 1, Nayapalli Bhubaneswar* Bhubaneswar*",
+    "Address": "CB - 1, Nayapalli Bhubaneswar Bhubaneswar",
     "Start Date": "11/12/2018",
     "Expiry Date": "10/12/2023",
     "Total Rooms": 62
@@ -13634,7 +13634,7 @@
   {
     "S.No.": 1137,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "EMPEE HOTELS LIMITED",
@@ -13646,7 +13646,7 @@
   {
     "S.No.": 1138,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Hyatt Regency Chennai",
@@ -13658,7 +13658,7 @@
   {
     "S.No.": 1139,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "ITC GRAND CHOLA",
@@ -13670,7 +13670,7 @@
   {
     "S.No.": 1140,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "PARK HYATT - UNIT OF AMBATTUR HOTELS PVT LTD",
@@ -13682,11 +13682,11 @@
   {
     "S.No.": 1141,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "The Westin Chennai Velachery",
-    "Address": "No. 154, Velachery Main Road Velachery Chennai*",
+    "Address": "No. 154, Velachery Main Road Velachery Chennai",
     "Start Date": "23/11/2018",
     "Expiry Date": "22/11/2023",
     "Total Rooms": 214
@@ -13694,11 +13694,11 @@
   {
     "S.No.": 1142,
     "State": "Tamil Nadu",
-    "City": "Chennai*",
+    "City": "Chennai",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Turyaa Chennai",
-    "Address": "1447, Rajiv Gandhi Salai, (OMR) Old Mahabalipuram Raod, Kottivakkam, Chennai 600041 Chennai*",
+    "Address": "1447, Rajiv Gandhi Salai, (OMR) Old Mahabalipuram Raod, Kottivakkam, Chennai 600041 Chennai",
     "Start Date": "01/04/2022",
     "Expiry Date": "31/03/2027",
     "Total Rooms": 140
@@ -13826,7 +13826,7 @@
   {
     "S.No.": 1153,
     "State": "Uttar Pradesh",
-    "City": "Lucknow*",
+    "City": "Lucknow",
     "Category": "5 Star",
     "Alcohol": "With Alcohol",
     "Hotel Name": "Taj Mahal, Lucknow",
