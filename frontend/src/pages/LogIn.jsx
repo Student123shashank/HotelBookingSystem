@@ -51,7 +51,6 @@ const Login = () => {
 
       const { id, token, role, username } = response.data;
 
-      // Save data in Redux and localStorage
       dispatch(authActions.login());
       dispatch(authActions.changeRole(role));
       localStorage.setItem("id", id);
@@ -67,17 +66,18 @@ const Login = () => {
       } else {
         navigate("/profile");
       }
-
     } catch (error) {
-      showErrorMessage(error.response?.data?.message || "Something went wrong!");
+      showErrorMessage(
+        error.response?.data?.message || "Something went wrong!"
+      );
     }
   };
 
   return (
     <>
       <Navbar />
-      <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
-        <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-md">
+      <div className="min-h-screen flex items-center justify-center bg-transparent">
+        <div className="bg-white/80 dark:bg-gray-800/80 p-8 rounded-lg shadow-md w-full max-w-md backdrop-blur">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
             Hotel Booking Login
           </h2>
@@ -128,4 +128,3 @@ const Login = () => {
 };
 
 export default Login;
-

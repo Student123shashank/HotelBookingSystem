@@ -41,7 +41,7 @@ const AllHotel = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-white dark:bg-zinc-900 min-h-screen p-4">
+      <div className="dark:bg-zinc-900 min-h-screen p-4">
         <h4 className="text-3xl text-yellow-400 font-semibold">All Hotels</h4>
 
         <div className="my-4 flex gap-4">
