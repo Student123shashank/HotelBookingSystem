@@ -8,7 +8,7 @@ export default function Hotel() {
       .then((res) => res.json())
       .then((data) => {
         // Shuffle and select 10 random hotels
-        const randomHotels = data.sort(() => 0.5 - Math.random()).slice(0, 10);
+        const randomHotels = data.sort(() => 0.5 - Math.random()).slice(0, 12);
         setHotels(randomHotels);
       });
   }, []);
